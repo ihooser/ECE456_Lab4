@@ -76,7 +76,7 @@ print "The server IP is:", serverIP
 print "The server Port is:", serverPort
 
  
-encrypted = encrypt(5, datain)
+encrypted = encrypt(int(key), datain)
 print encrypted
 #combining all the imformation into one sting to send
 Message = client_number + " The client ip-address: " + sock + " The client port-number: " + client_port + str(ti) + " Time sent: " + str(t)+ " Data: " + encrypted
