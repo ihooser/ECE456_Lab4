@@ -86,6 +86,7 @@ while True:
     print "WAITING!!!!!!!!!! for server"
     data, server = clientSock.recvfrom(1024)
     print  data
+    break
 
 
 
